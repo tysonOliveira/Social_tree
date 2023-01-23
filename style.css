@@ -1,4 +1,31 @@
-body {
+* {
   margin: 0;
   box-sizing: border-box;
+  background: --body-bg-color;
+}
+
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.avatar {
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  border: 5px solid #FAF7FD;
+  outline: 1px solid #BB99DD;
+  background-color: #BB99DD;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
 }
