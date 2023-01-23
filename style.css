@@ -2,6 +2,9 @@
   margin: 0;
   box-sizing: border-box;
   background: --body-bg-color;
+
+  font-family: Poppins, sans-serif;
+  color: #BB99DD;
 }
 
 :root {
@@ -17,15 +20,50 @@ body {
 }
 
 .avatar {
+  display: flex;
+  justify-content: center;
   width: 12.5rem;
   height: 12.5rem;
+  margin-bottom: 1rem;
   border-radius: 50%;
   border: 5px solid #FAF7FD;
-  outline: 1px solid #BB99DD;
+  outline: 2px solid #BB99DD;
   background-color: #BB99DD;
+  overflow: hidden;
+  
 }
 
 .background {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20.375rem;
+  height: 3.0625rem;
+  margin-bottom: 1rem;
+  border: 2px solid #BB99DD;
+
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  color: #BB99DD;
+}
+
+.social {
+  display: flex;
+  gap: 1.8125rem;
+  margin-top: 1.25rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 300;
 }
