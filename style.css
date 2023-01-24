@@ -48,16 +48,29 @@ body {
   height: 3.0625rem;
   margin-bottom: 1rem;
   border: 2px solid #BB99DD;
+  cursor: pointer;
 
   font-family: Poppins, sans-serif;
   font-weight: 600;
   color: #BB99DD;
+
+  transition: 0.1s;
+}
+
+.button:hover {
+  background: #BB99DD;
+  color: #FAF7FD;
 }
 
 .social {
   display: flex;
   gap: 1.8125rem;
   margin-top: 1.25rem;
+  
+}
+
+.icon {
+  cursor: pointer;
 }
 
 .profile {
@@ -67,3 +80,4 @@ body {
   margin-bottom: 1rem;
   font-weight: 300;
 }
+
